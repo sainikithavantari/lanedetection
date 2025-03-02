@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lane Detection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lane Detection 🚗</h1>
+    <p>Upload an image or video to detect lanes.</p>
+
+    <!-- Input Options -->
+    <div class="options">
+      <label for="image-upload" class="upload-btn">Upload Image</label>
+      <input type="file" id="image-upload" accept="image/*" hidden>
+      <label for="video-upload" class="upload-btn">Upload Video</label>
+      <input type="file" id="video-upload" accept="video/*" hidden>
+    </div>
+
+    <!-- Display Area -->
+    <div class="output">
+      <h2>Input</h2>
+      <div id="input-display"></div>
+      <h2>Output</h2>
+      <div id="output-display"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
